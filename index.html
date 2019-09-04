@@ -1,12 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Link to the reset style sheet -->
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <!-- Link to the game style sheet -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <title>Star Wars</title>
 </head>
+
 <body>
-    
+  <header>
+    <h1>Star Wars RPG!</h1>
+  </header>
+  <div class="container">
+    <div class="row firstRow">
+      <div class="col-sm-12">
+        <h2 id="choose">Choose your character</h2>
+      </div>
+    </div>
+    <div class="row secondRow">
+      <div class="col-sm-12" id="myArea">
+        <div class="card player" data-player="0">
+          R2-D2
+          <img src="assets/images/pl1.jpg" alt="Card image">
+          120
+          </div>
+        <div class="card player" data-player="1">
+          Darth</p>
+          <img src="assets/images/pl2.jpg" alt="Card image">
+          100
+        </div>
+        <div class="card player" data-player="2">
+          Dameron
+          <img src="assets/images/pl3.jpeg" alt="Card image">
+          180
+        </div>
+        <div class="card player" data-player="3">
+          Chewbacca
+          <img src="assets/images/pl4.webp" alt="Card image">
+          150
+        </div>
+      </div>
+    </div>
+    <div class="row thirdRow">
+      <div class="col-sm-12">
+        <h3>Your Character</h3>
+      </div>
+    </div>
+    <div class="row forthRow">
+      <div class="col-sm-12" id="your">
+        
+      </div>
+    </div>
+    <div class="row fifthRow">
+      <div class="col-sm-12">
+        <h4>Enemies Available to Attack</h4>
+      </div>
+    </div>
+    <div class="row sixthRow">
+      <div class="col-sm-12" id="myenemies">
+        
+      </div>
+    </div>
+    <div class="row seventhRow">
+      <div class="col-sm-12">
+        <h4 id = "fScreen">Fight Screen</h4>
+         <div class="row eigthRow">
+            <div class="col-sm-12">
+              <button id="attack">Attack</button>        
+            </div>
+          </div>
+          <div class="row ninthRow">
+            <div class="col-sm-12">
+              <h4>Defender</h4>
+            </div>
+          </div>
+          <div class="row tenthRow">
+            <div class="col-sm-12" id="defender">
+              
+            </div>
+          </div>
+          <div class="row elevnthRow">
+            <div class="col-sm-12" id="defenderPara">
+              
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="assets/javascript/game.js"></script>
 </body>
+
 </html>
+
+
+
+
+
+
+<!-- 
+<div class="card">
+    <div class="card-body">
+      <p class="card-text"></p>       
+    
+      <p class="card-text"></p>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <p class="card-text">Player name</p>
+    </div>
+    <img src="assets/images/pl2.jpg" alt="Card image">
+    <div class="card-body">
+      <p class="card-text">of a card.</p>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <p class="card-text">Player name</p>
+    </div>
+    <img src="assets/images/pl3.jpeg" alt="Card image">
+    <div class="card-body">
+      <p class="card-text">of a card.</p>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <p class="card-text">Player name</p>
+    </div>
+    <img src="assets/images/pl4.webp" alt="Card image">
+    <div class="card-body">
+      <p class="card-text">of a card.</p>
+    </div>
+  </div> -->

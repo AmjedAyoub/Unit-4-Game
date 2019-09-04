@@ -1,0 +1,106 @@
+/* Elements */
+
+header{
+    background-color: rgba(0, 0, 0, 0.726);
+    color: rgba(211, 55, 86, 0.925);
+    text-align: center;
+    padding: 1%;
+}
+
+body{
+    background-image: url(../images/backgroud.png);
+    background-size: cover;
+}
+
+img{
+    width: 90%;
+    height: 65%;
+    margin: 0 auto;
+}
+
+button{
+    border-radius: 100%;
+    border: 2px solid red;
+    padding: 10px;
+    background-color: maroon;
+    color: aliceblue;
+}
+
+/* classes */
+
+.container{
+    width: 90%;
+}
+
+.card{
+    border: 3px solid greenyellow;
+    width: 15%;
+    height: 100%;
+    text-align: center;
+    font-size: 10pt;
+    float: left;
+    position: relative;
+    margin: auto 1px;
+    font: caption;
+    font-weight: bold;
+}
+
+.card-body{
+    padding: 0.0rem;
+    flex: 0 auto;
+}
+
+.myenemies{
+    background-color: crimson;
+}
+
+.defender{
+    background-color: black;
+    color: aliceblue;
+}
+
+.seventhRow{
+    background-color: rgba(220, 20, 60, 0.842);
+    min-height: 200px;
+    margin: 1 auto;
+    margin-top: 10px;
+    border: 3px solid orange;
+}
+
+/* Ids */
+
+
+#fScreen{
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.527);
+    color: aliceblue;
+}
+
+#myenemies{
+    float: left;
+
+}
+
+#restart{
+    border-radius: 20%;
+    border: 2px solid red;
+    padding: 10px;
+    background-color: rgb(7, 196, 16);
+    color: aliceblue;
+    margin-left: 5%;
+}
+
+
+
+
+
+
+
+/* 
+#gameBackground{
+    width: 100%;
+    height: 95%;
+    border: 2px solid red;
+    margin: auto;
+    opacity: 0.8;
+} */
