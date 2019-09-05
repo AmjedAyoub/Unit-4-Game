@@ -19,11 +19,14 @@ $(document).ready(function() {
     var enmHealth;
     var enmDefense;
     var count=3;
-    function name(params) {
-        
-    }
+    var audiogame = document.createElement("audio");
+    audiogame.setAttribute("src", "assets/images/game.mp3");
+    var audioAttack = document.createElement("audio");
+    audioAttack.setAttribute("src", "assets/images/attack.mp3");
 
     $(".player").click(function() {
+        audiogame.play();
+
         var ply=$(this);
         var myobj=ply.attr("data-player");
         console.log(myobj);
@@ -94,6 +97,7 @@ $(document).ready(function() {
 
     $("#attack").click(function () {
         if(myHealth>0 && enmHealth>0){
+            audioAttack.play();
         var myH=document.getElementById("myHealth");
         var enmH=document.getElementById("enmHealth");
         enmHealth=enmHealth-myAttack;
@@ -118,6 +122,7 @@ $(document).ready(function() {
 
                 btn.bind("click", function(){
                     location.reload(true);
+                    audiogame.play();
                 })
             }
             else{
@@ -148,6 +153,7 @@ $(document).ready(function() {
             gameover=true;
             btn.bind("click", function(){
                 location.reload(true);
+                audiogame.play();
             })
             }
         }
